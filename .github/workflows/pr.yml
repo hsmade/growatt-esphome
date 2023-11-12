@@ -27,5 +27,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: hsmade/growatt-esphome:${{ steps.tag.outputs.TAG }}
+        repository: hsmade/growatt-esphome
+        tag: ${{ steps.tag.outputs.TAG }}
         push: false
