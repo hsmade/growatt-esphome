@@ -3,5 +3,3 @@
   * date sensor
   * total working time sensor
 * refactor
-* package into docker image
-* pipeline
