@@ -3,8 +3,8 @@ module github.com/hsmade/growatt-esphome
 go 1.21.0
 
 require (
-	github.com/hsmade/esphome-go v0.0.0-20231110182837-67ddaa69c283
-	github.com/hsmade/growatt-sniffer v0.0.0-20231112112435-242d78f78760
+	github.com/hsmade/esphome-go v0.0.0-20231112114140-57103ca34798
+	github.com/hsmade/growatt-sniffer v0.0.0-20231112144643-4ba507638026
 	github.com/iancoleman/strcase v0.3.0
 	github.com/prometheus/client_golang v1.17.0
 )
