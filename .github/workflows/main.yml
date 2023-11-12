@@ -25,5 +25,5 @@ jobs:
     - name: Push to Docker Hub
       uses: docker/build-push-action@v5
       with:
-        tags: hsmade/growatt-esphome:${{ steps.tag.outputs.TAG }}
+        tags: hsmade/growatt_esphome:${{ steps.tag.outputs.TAG }}
         push: true
