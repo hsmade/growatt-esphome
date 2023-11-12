@@ -1,6 +1,6 @@
 module github.com/hsmade/growatt-esphome
 
-go 1.21.0
+go 1.21.4
 
 require (
 	github.com/hsmade/esphome-go v0.0.0-20231112114140-57103ca34798
