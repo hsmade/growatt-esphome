@@ -4,7 +4,7 @@ go 1.21.4
 
 require (
 	github.com/hsmade/esphome-go 9201ddb92a76
-	github.com/hsmade/growatt-sniffer v0.0.0-20231112144643-4ba507638026
+	github.com/hsmade/growatt-sniffer 666c0b0e5419
 	github.com/iancoleman/strcase v0.3.0
 	github.com/prometheus/client_golang v1.17.0
 )
