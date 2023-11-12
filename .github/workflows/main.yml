@@ -25,8 +25,5 @@ jobs:
     - name: Push to Docker Hub
       uses: docker/build-push-action@v5
       with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: hsmade/growatt-esphome
-        tag: :${{ steps.tag.outputs.TAG }}
+        tags: hsmade/growatt-esphome:${{ steps.tag.outputs.TAG }}
         push: true
