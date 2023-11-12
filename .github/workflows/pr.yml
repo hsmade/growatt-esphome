@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-tags: true
     - name: get tag
       id: tag
       run: echo "TAG=$(git describe --dirty --tags)" >> "$GITHUB_OUTPUT"
