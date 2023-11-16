@@ -195,7 +195,7 @@ func GetSensorDefinitions() []conf.Sensor {
 				DeviceClass:       "energy",
 				UnitOfMeasurement: "kWh",
 				AccuracyDecimals:  1,
-				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL_INCREASING,
+				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL,
 			},
 		},
 		{
@@ -237,7 +237,7 @@ func GetSensorDefinitions() []conf.Sensor {
 				DeviceClass:       "energy",
 				UnitOfMeasurement: "kWh",
 				AccuracyDecimals:  1,
-				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL_INCREASING,
+				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL,
 			},
 		},
 		{
@@ -265,7 +265,7 @@ func GetSensorDefinitions() []conf.Sensor {
 				DeviceClass:       "energy",
 				UnitOfMeasurement: "kWh",
 				AccuracyDecimals:  1,
-				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL_INCREASING,
+				StateClass:        api.SensorStateClass_STATE_CLASS_TOTAL,
 			},
 		},
 		{
