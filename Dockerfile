@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine3.18 as build
+FROM golang:1.22-alpine3.18 as build
 RUN apk add build-base libpcap-dev
 ADD . /src
 WORKDIR /src
