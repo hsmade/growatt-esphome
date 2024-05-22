@@ -7,6 +7,6 @@ RUN go test ./...
 RUN go vet ./...
 RUN CGO_ENABLED=1 go build -o /app main.go
 
-FROM alpine:3.18
+FROM alpine:3.20
 COPY --from=build /app /app
 ENTRYPOINT ["/app"]
